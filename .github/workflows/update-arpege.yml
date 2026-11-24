@@ -6,7 +6,7 @@ on:
     # ARPEGE n'est republié que 4x/jour (00/06/12/18 UTC) contre 1x/heure
     # pour AROME : un cron toutes les 3h suffit (les runs GitHub Actions
     # planifiés restent "best-effort", pas garantis à l'heure pile).
-    - cron: "33 6 * * *"
+    - cron: "33 4,10,16,22 * * *"
 
 permissions:
   contents: write
